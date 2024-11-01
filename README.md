@@ -1,6 +1,6 @@
 # Multip-Forms
 
-Multiple forms operation using JavaScript, HTML and CSS
+- Multiple forms operation using JavaScript, HTML and CSS
 
 # Tools Used
 
