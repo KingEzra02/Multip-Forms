@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.form-container {
+    background: #fff;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.step {
+    padding: 10px;
+    border-bottom: 3px solid lightgray;
+    color: gray;
+}
+
+.step.active {
+    border-color: green;
+    color: green;
+}
+
+.form-step {
+    display: none;
+}
+
+.form-step.active {
+    display: block;
+}
+
+input, select, textarea, button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.gender label {
+    margin-right: 10px;
+}
+
+button {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9em;
+}
